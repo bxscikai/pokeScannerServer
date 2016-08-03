@@ -1,6 +1,6 @@
 #Docker file for Couply Node Sever
 
-FROM ubuntu:13.10
+FROM ubuntu:latest
 
 # Update sources
 RUN sed -i -e 's/archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
